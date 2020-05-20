@@ -7,10 +7,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Trigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pause.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WinScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicPause.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestPointer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerShoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
@@ -26,13 +30,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Cam.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Trigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Unit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestPointer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPlane.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerShoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Unit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pause.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WinScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WinScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MusicPause.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPlane.cs" />
       </list>
     </option>
   </component>
@@ -46,6 +51,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -77,6 +83,7 @@
       <workItem from="1589789800965" duration="10613000" />
       <workItem from="1589812773032" duration="7242000" />
       <workItem from="1589892435224" duration="9204000" />
+      <workItem from="1589953325844" duration="5016000" />
     </task>
     <servers />
   </component>
@@ -85,4 +92,21 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="269" width="672" height="678" key="search.everywhere.popup" timestamp="1589955753526">
+      <screen x="0" y="46" width="1920" height="1034" />
+    </state>
+    <state x="623" y="269" width="672" height="678" key="search.everywhere.popup/0.46.1920.1034@0.46.1920.1034" timestamp="1589955753526" />
+  </component>
 </project>

@@ -63,9 +63,12 @@ public class Unit : MonoBehaviour
     private void Update()
     {
         // LookAt Player.
+        if (player != null)
+        {
             var dir = player.transform.position - transform.position;
             var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        }
 
             
             curPos = transform.position;

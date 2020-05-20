@@ -8,9 +8,14 @@ public class WinScript : MonoBehaviour
 {
     public GameObject winScreen;
     public Text timer;
-    public int time = 300;
+    public static int time = 300;
 
     private float gameTime = 0;
+
+    private void Awake()
+    {
+        time = 300;
+    }
 
     private void Update()
     {
@@ -25,6 +30,8 @@ public class WinScript : MonoBehaviour
                 gameTime = 0;
             }
         }
+
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)

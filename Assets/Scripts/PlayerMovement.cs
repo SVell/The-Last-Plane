@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Timeline;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -20,10 +19,14 @@ public class PlayerMovement : MonoBehaviour
     public Animator anim;
     
     public GameObject blood;
+    
+    public GameObject dieScreen;
+    public static bool dead = false;
 
     private void Start()
     {
         hp = maxHP;
+        dieScreen.SetActive(false);
     }
 
     private void Update()
@@ -42,7 +45,23 @@ public class PlayerMovement : MonoBehaviour
         
         if (hp <= 0)
         {
-            Destroy(gameObject);
+            dead = true;
+            dieScreen.SetActive(true);
+            Pause.isPaused = true;
+            Time.timeScale = 0;
+            gameObject.GetComponent<SpriteRenderer>().enabled = false;
+            //PlayerPlane.quest.SetActive(false);
+        }
+        
+        if (WinScript.time <= 0)
+        {
+            print("Time");
+            dead = true;
+            dieScreen.SetActive(true);
+            Pause.isPaused = true;
+            Time.timeScale = 0;
+            gameObject.GetComponent<SpriteRenderer>().enabled = false;
+            //WinScript.time = 300;
         }
     }
     

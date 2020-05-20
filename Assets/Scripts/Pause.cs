@@ -19,19 +19,22 @@ public class Pause : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
         {
-            if (!isPaused)
+            if (pause != null)
             {
-                Time.timeScale = 0;
-                isPaused = true;
-                pause.SetActive(true);
-            }
-            else if (isPaused)
-            {
-                Time.timeScale = 1;
-                isPaused = false;
-                pause.SetActive(false);
+                if (!isPaused)
+                {
+                    Time.timeScale = 0;
+                    isPaused = true;
+                    pause.SetActive(true);
+                }
+                else if (isPaused && PlayerMovement.dead == false)
+                {
+                    Time.timeScale = 1;
+                    isPaused = false;
+                    pause.SetActive(false);
+                }
             }
         }
     }
